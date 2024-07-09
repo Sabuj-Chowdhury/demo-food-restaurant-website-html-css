@@ -83,6 +83,8 @@ body{
 
 
 /* about us Style START */
+
+
 .section-about-us{
     width: 1450px;
     height: 671px;
@@ -147,4 +149,93 @@ body{
 .hr1{
     margin-bottom: 25px;
 }
+
 /* about us Style END */
+
+
+/* card box Style START */
+
+.card-box{
+    width: 1450px;
+    height: 790px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: aliceblue;
+}
+.card-box-content-section{
+    width: 80%;
+    height: 90%;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+}
+.card-box-heading{
+    width: 550px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.card-box-heading p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+.card-box-heading h2{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-box-food-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+    
+}
+.food-discount-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-container{
+    text-align: center;
+}  
+ .card-box-discount-info button{
+    width: 137px;
+    height: 37px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    border: none;
+ }
+ .card-box-discount-info h3{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 10px 0px;
+ }
+ .card-box-discount-info p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+ }
+/* card box Style START */
